@@ -1,0 +1,36 @@
+
+body {
+    background-color: rgb(241, 232, 192);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+}
+
+p {
+    font-size: 30px;
+    display: inline;
+    line-height: 70px;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+.paddingleft {
+    padding-left: 50px;
+}
+
+#inputid {
+    font-size: 25px;
+    text-align: center;
+    width: 100px;
+}
