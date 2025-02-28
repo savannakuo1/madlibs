@@ -16,17 +16,16 @@ p {
     line-height: 70px;
 }
 
+div {
+    width: 80%;
+    padding-left: 10%;
+}
+
 .top{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 40px;
-}
-
-
-
-.paddingleft {
-    padding-left: 50px;
 }
 
 #inputid {
