@@ -7,7 +7,7 @@ h1 {
     font-size: 60px;
     text-align: center;
     height: 150px;
-    padding: 10px;
+    margin-top: 50px;
 }
 
 p {
@@ -21,6 +21,20 @@ div {
     padding-left: 10%;
 }
 
+
+.cap{
+color: orangered;
+}
+
+.block {
+    display: inline;
+    background-color: orangered;
+    padding: 5px;
+}
+.block:hover {
+    font-weight: bold;
+}
+
 .top{
     display: flex;
     flex-direction: row;
@@ -32,4 +46,6 @@ div {
     font-size: 25px;
     text-align: center;
     width: 100px;
+    border: 3px dotted;
+    box-sizing: border-box;
 }
